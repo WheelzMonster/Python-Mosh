@@ -16,6 +16,6 @@ On peut donc exécuter un programme Java sur n'importe quelle plateforme ayant u
 
 Quand on lance un programme Python en utilisant CPython, ça va compiler notre code Python en PythonBytecode puis il va passer ce Bytecode dans PVM (Python Virtual Machine) qui finira par le convertir en binaire, puis l'exécuter.
 
-#Pourquoi peut-on utiliser du Java dans notre programme Python en utilisant Jython ?
+# Pourquoi peut-on utiliser du Java dans notre programme Python en utilisant Jython ?
 
 Quand on utilise Jython pour lancer un programme en Python, plutôt que de compiler le code en PythonBytecode comme le ferai CPython, Jython compilera le code en JavaBytecode. Donc on peut utiliser ce JavaBytecode dans une Java Virtual machine. C'est pourquoi on peut importer du code Java dans un programme python en utilisant Jython. Parce que le résultat final est du JavaBytecode qui finira par être exécuter par un JVM.
