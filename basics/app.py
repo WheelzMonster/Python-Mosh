@@ -1,4 +1,4 @@
-# Différents types de variable :
+# ***********************************VAR TYPES***************************************
 
 studentCount = 1000
 rating = 4.99

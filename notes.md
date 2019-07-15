@@ -44,11 +44,11 @@ exemple en Python :
 
 > studentCount = 1000
 
-*Dans un programme utilisant un langage dynamique comme Python, si l'on souhaite connaître le type d'une variable, on peut passer sa souris dessus dans VSCode ou faire `print(type(studentCount))` pour afficher le type de la variable dans la console. Cela affichera `<class 'int'>` dans la console. Puisque Python est un langage orienté objet, on retrouve ici le concept de classe : en python il y a une classe nommmée `int` qui représent les nombres entiers. Donc toutes les variables étant des nombres entiers seront des instances de cette classe. Le chapitre sur les classes arrive après.*
+*Dans un programme utilisant un langage dynamique comme Python, si l'on souhaite connaître le type d'une variable, on peut passer sa souris dessus dans VSCode ou faire `print(type(studentCount))` pour afficher le type de la variable dans la console. Cela affichera `<class 'int'>` dans la console. Puisque Python est un langage orienté objet, on retrouve ici le concept de classe : en python il y a une classe nommmée `int` qui représente les nombres entiers. Donc toutes les variables étant des nombres entiers seront des instances de cette classe. Le chapitre sur les classes arrive après.*
 
 # Les chaînes de caractères (strings)
 
-*Etant donné que c'est difficile d'expliqué ça sans code, pour en savoir plus sur les strings, se rendre dans ./basics/app.py puis descendre jusqu'à 'STRINGS'.*
+*Etant donné que c'est difficile d'expliquer ça sans code, pour en savoir plus sur les strings, se rendre dans ./basics/app.py puis descendre jusqu'à 'STRINGS'.*
 
 
 
