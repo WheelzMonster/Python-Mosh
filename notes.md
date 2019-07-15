@@ -22,15 +22,39 @@ Quand on lance un programme Python en utilisant CPython, ça va compiler notre c
 Quand on utilise Jython pour lancer un programme en Python, plutôt que de compiler le code en PythonBytecode comme le ferai CPython, Jython compilera le code en JavaBytecode. Donc on peut utiliser ce JavaBytecode dans une Java Virtual machine. C'est pourquoi on peut importer du code Java dans un programme python en utilisant Jython. Parce que le résultat final est du JavaBytecode qui finira par être exécuter par un JVM.
 
 # Typage (de variable) dynamique
+*pour en savoir plus sur le type de variable, aller dans ./basics/app.py c'est le début*
 
-En ce qui concerne le typage des données, il existe deeux catégories :
+En ce qui concerne le typage des données, il existe deux catégories :
 
-- le typage statique (C++, C#, Java)
-- le typage dynamique (Javascript, Ruby, Python)
+- le typage statique (C++, C#, Java) où les types de variables sont déterminés lors de la compilation du programme
+
+- le typage dynamique (Javascript, Ruby, Python) où les types de variables sont déterminés lors de l'exécution du programme
 
 Dans les langages utilisant un typage statique, lorsqu'on déclare une variable, il faut spécifier son type.
 
 exemple en C# :
 
-> int studen
+> int studentCount = 1000
+
+De cette façon, le type de cette variable sera toujours un nombre entier. Le programme et le compilateur savent que `studentCount` est un nombre entier. Donc si dans la suite de notre programme on essaie de réassigner sa valeur à autre chose qu'un nombre entier (comme par exemple : `studentCount = True`) alors il y aura une erreur lors de la compilation du programme. 
+
+A l'inverse, dans les langages utilisant un typage dynamique, il n'y a pas besoin de spécifier le type de notre variable. Il faut simplement lui assigner une valeur. Le type de la variable sera déterminer lorsque le programme sera exécuter. 
+
+exemple en Python : 
+
+> studentCount = 1000
+
+*Dans un programme utilisant un langage dynamique comme Python, si l'on souhaite connaître le type d'une variable, on peut passer sa souris dessus dans VSCode ou faire `print(type(studentCount))` pour afficher le type de la variable dans la console. Cela affichera `<class 'int'>` dans la console. Puisque Python est un langage orienté objet, on retrouve ici le concept de classe : en python il y a une classe nommmée `int` qui représent les nombres entiers. Donc toutes les variables étant des nombres entiers seront des instances de cette classe. Le chapitre sur les classes arrive après.*
+
+# Les chaînes de caractères (strings)
+
+*Etant donné que c'est difficile d'expliqué ça sans code, pour en savoir plus sur les strings, se rendre dans ./basics/app.py puis descendre jusqu'à 'STRINGS'.*
+
+
+
+
+
+
+
+
 
