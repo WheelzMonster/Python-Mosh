@@ -1,5 +1,7 @@
 # ***********************************VAR TYPES***************************************
 
+
+
 studentCount = 1000
 rating = 4.99
 isPublished = True  # Important ! c'est un T maj
@@ -19,7 +21,11 @@ x, y = 1, 2
 
 x = y = 3
 
-# *********************************STRINGS**************************
+
+
+# *********************************STRINGS******************************
+
+
 
 course = 'Python programing'
 
@@ -31,7 +37,19 @@ print(course[:3])  # affiche de 0 jusqu'à la 4eme lettre
 print(course[0:])  # affiche de 0 jusqu'à la fin
 print(course[:])  # affiche toute la chaîne.
 
+
+
 # *****************************ESCAPE SEQUENCES***************************
 
-# cela permet tout simplement d'afficher visuellement des "" dans une string en utilisant \ juste devant.
+
+
+# cela permet tout simplement d'afficher visuellement des "" ou autres caractères dans une string en utilisant \ juste devant.
+
+#exemple : // /' /"" servent à ce qu'apparaissent visuellement ces caractères dans une string. Apparaissent ici respectivement un / un simple quote ' et un double "" 
+
 # on utilise aussi /n pour revenir à la ligne
+
+
+
+
+# *****************************FORMATTED STRINGS***************************

@@ -54,4 +54,6 @@ _Etant donné que c'est difficile d'expliquer ça sans code, pour en savoir plus
 
 _toujours dans ./basics/app.py, descendre jusqu'à espace sequences_
 
-pursuing
+# Les 'formatted strings'
+
+_toujours dans ./basics/app.py, descendre jusqu'à formatted strings_
