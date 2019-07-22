@@ -50,7 +50,7 @@ exemple en Python :
 
 *Etant donné que c'est difficile d'expliquer ça sans code, pour en savoir plus sur les strings, se rendre dans ./basics/app.py puis descendre jusqu'à 'STRINGS'.*
 
-test 2
+test de clé ssh
 
 
 
