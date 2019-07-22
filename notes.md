@@ -57,3 +57,10 @@ _toujours dans ./basics/app.py, descendre jusqu'à espace sequences_
 # Les 'formatted strings'
 
 _toujours dans ./basics/app.py, descendre jusqu'à formatted strings_
+
+# Principales méthodes sur les chaînes de caractères
+
+_toujours dans ./basics/app.py, descendre jusqu'à useful strings methods_
+
+
+
