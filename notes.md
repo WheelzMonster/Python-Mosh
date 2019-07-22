@@ -53,3 +53,5 @@ _Etant donné que c'est difficile d'expliquer ça sans code, pour en savoir plus
 # Les 'escape sequences'
 
 _toujours dans ./basics/app.py, descendre jusqu'à espace sequences_
+
+pursuing
