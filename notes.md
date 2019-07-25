@@ -70,4 +70,18 @@ _toujours dans ./basics/app.py, descendre jusqu'à numbers_
 
 _toujours dans ./basics/app.py, descendre jusqu'à useful number methods_
 
+# Conversion de type
+
+_toujours dans ./basics/app.py, descendre jusqu'à type conversion_
+
+# Conditions et opérateurs logiques
+
+_toujours dans ./basics/app.py, descendre jusqu'à conditionnal statement and operators_
+
+
+
+
+
+
+
 

@@ -1,6 +1,7 @@
 # ***********************************VAR TYPES***************************************
 
 
+import math
 studentCount = 1000
 rating = 4.99
 isPublished = True  # Important ! c'est un T maj
@@ -117,3 +118,56 @@ x = x + 1  # x += 1 est identique, ça marche pour le + mais aussi pour tous les
 
 
 # *****************************USEFUL NUMBER METHODS***************************
+
+round()  # pour la valeur arrondie
+abs()  # pour la valeur absolue
+
+# On peut importer le module Math pour avoir plusieurs propriété, pour les voir il suffit de faire math. et regarder la liste
+
+
+math.floor()  # arrondie a l'inferieur
+
+# Note : taper python built-in functions ou python 3 math module en ce qui concerne l'import math pour plus d'info
+
+
+# *****************************TYPE CONVERSION***************************
+
+# Il y a 4 méthodes pour convertir des types de variable
+
+str()  # chaine de caractère
+int()  # nombre entier
+bool()  # booléen
+float()  # nombre a virgule
+
+# lorsqu'on convertie un type en bool il faut prendre en compte les "Falsy value" qui sont les suivantes
+
+bool('')
+bool(0)
+bool([])
+bool(null)  # ou none
+
+# tout cela renvoi false
+
+
+# *****************************CONDITIONNAL STATEMENTS AND OPERATORS***************************
+
+# Les if else on connait c'est simple il faut juste pas oublier : à la fin de la condition et regarder l'indentation
+
+if age > 21:
+    print("you're allowed in")
+else:
+    print("you're not allowed in")
+
+# pour les opérateurs il y a : and, or, not
+
+# puisque "" vaut false, si on rajoute not devant alors ça vaut true, donc pour regarder si un nom est vide on fait
+
+name = 'louis'
+
+if not name.strip():  # si le nom est vide (donc que la chaine vaut false) alors ceci vaut true donc on envoi name is empty (le strip c'est pour enlever les espaces car sinon la chaîne n'est pas considéré comme vide)
+    print('name is empty')
+
+age = 22
+
+if 18 <= age < 65:
+    print("you're eligible")
