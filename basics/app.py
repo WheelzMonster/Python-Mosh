@@ -78,3 +78,42 @@ course.replace("P", "j")
 
 "Programmation" not in course
 # regarde si une string n'est pas inclue dans une variable, si oui renvoi True, sinon renvoi False
+
+
+# **************************************NUMBERS************************************
+
+
+# En python, on peut aussi travailler avec des nombres sous forme binaire de la façon suivante : 0b + notre chiffre en binaire
+
+x = 0b10  # affiche 2
+
+# Pour afficher un nombre sous sa forme binaire on utilise la méthode bin
+
+print(bin(x))  # 0b10
+
+# En python, on peut aussi travailler avec des nombres sous forme héxadécimale de la façon suivante : 0b + notre chiffre en binaire
+
+x = 0x12c  # affiche 300
+
+# Pour afficher un nombre sous sa forme binaire on utilise la méthode bin
+
+print(hex(x))  # 0x12c
+
+# Les nombres complexes de forme a + bi se font avec J
+
+complexe = 1 + 2J
+
+# Pour les opérateurs arithmétiques on connait les bases + - * / mais il en existe d'autres :
+
+10 // 3  # les deux / représente une divison dont le résultat est ramené à l'entier le plus proche
+10 % 3  # le reste de la division de 10 par 3, ici 1
+10 ** 3  # 10 à la puissance 3 donc ici 1000
+
+# il y a une version raccourcie lorsqu'on fait une assignation de valeure
+
+x = x + 1  # x += 1 est identique, ça marche pour le + mais aussi pour tous les autres opérateurs ci-dessus
+
+# Note importante, en python le ++, -- etc pour faire +1, -1 etc n'existe pas
+
+
+# *****************************USEFUL NUMBER METHODS***************************

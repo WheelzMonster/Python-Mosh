@@ -62,5 +62,12 @@ _toujours dans ./basics/app.py, descendre jusqu'à formatted strings_
 
 _toujours dans ./basics/app.py, descendre jusqu'à useful strings methods_
 
+# Les nombres (partie cool sur le binaire et l'hexa) et les opérateurs arithmétiques
+
+_toujours dans ./basics/app.py, descendre jusqu'à numbers_
+
+# Principales méthodes sur les nombres
+
+_toujours dans ./basics/app.py, descendre jusqu'à useful number methods_
 
 
