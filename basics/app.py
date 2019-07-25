@@ -144,7 +144,7 @@ float()  # nombre a virgule
 bool('')
 bool(0)
 bool([])
-bool(null)  # ou none
+bool(None)  # ou null
 
 # tout cela renvoi false
 
@@ -152,6 +152,8 @@ bool(null)  # ou none
 # *****************************CONDITIONNAL STATEMENTS AND OPERATORS***************************
 
 # Les if else on connait c'est simple il faut juste pas oublier : à la fin de la condition et regarder l'indentation
+
+age = 26
 
 if age > 21:
     print("you're allowed in")
@@ -164,7 +166,7 @@ else:
 
 name = 'louis'
 
-if not name.strip():  # si le nom est vide (donc que la chaine vaut false) alors ceci vaut true donc on envoi name is empty (le strip c'est pour enlever les espaces car sinon la chaîne n'est pas considéré comme vide)
+if not name.strip():  # si le nom est vide (donc que name vaut false puisqu'une chaine vide renvoi false) alors grace au not la condition vaut true donc on rentre dans le block mais si name n'est PAS vide (donc que name vaut true comme toute chaine non vide) alors grace au not la condition vaut false et on ne rentre pas dans le block (le strip c'est pour enlever les espaces car sinon la chaîne pourrait ne pas être considéré comme vide même si rien n'est écrit dedans)
     print('name is empty')
 
 age = 22
