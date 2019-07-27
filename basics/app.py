@@ -149,7 +149,7 @@ bool(None)  # ou null
 # tout cela renvoi false
 
 
-# *****************************CONDITIONNAL STATEMENTS AND OPERATORS***************************
+# *****************************CONDITIONS, LOGICAL AND TERNARY OPERATORS***************************
 
 # Les if else on connait c'est simple il faut juste pas oublier : à la fin de la condition et regarder l'indentation
 
@@ -162,14 +162,57 @@ else:
 
 # pour les opérateurs il y a : and, or, not
 
-# puisque "" vaut false, si on rajoute not devant alors ça vaut true, donc pour regarder si un nom est vide on fait
 
 name = 'louis'
 
 if not name.strip():  # si le nom est vide (donc que name vaut false puisqu'une chaine vide renvoi false) alors grace au not la condition vaut true donc on rentre dans le block mais si name n'est PAS vide (donc que name vaut true comme toute chaine non vide) alors grace au not la condition vaut false et on ne rentre pas dans le block (le strip c'est pour enlever les espaces car sinon la chaîne pourrait ne pas être considéré comme vide même si rien n'est écrit dedans)
     print('name is empty')
 
+
+# pour certaines conditions plutot que d'utiliser le 'and' on peut faire ça :
+
 age = 22
 
 if 18 <= age < 65:
     print("you're eligible")
+
+# age = 22
+# if age >= 18:
+#   message = "eligible"
+# else :
+#   message = "not eligible"
+
+# l'équivalent de ceci avec l'opérateur ternaire c'est ça :
+
+message = 'eligible' if age >= 18 else "not eligible"
+
+
+# ***********************************************LOOPS****************************************
+
+
+# FOR LOOP *************************************************
+
+# Pour les chaines de caractères les tableaux etc on utilise for in
+
+string = 'chaine'
+
+for lettre in string:
+    print(lettre)
+
+for x in ['a', 'b', 'c']:
+    print(x)
+
+# Si on veut faire tourner la boucle un certain nombre de fois on utilise la fonction range()
+
+for loop in range(5):
+    print(loop)  # affichera 1, 2,3,4,5 en colonne
+
+# la fonction range peut prendre 3 arguments (début, fin(non inclue), pas) donc pour les paires de 0 a 10 non inclue on  fait :
+
+for paires in range(0, 10, 2):
+    print(paires)
+
+# regarder dans notes.md pour plus d'infos sur range
+
+
+# FOR ... ELSE LOOP*************************************************
