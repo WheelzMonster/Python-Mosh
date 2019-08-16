@@ -87,6 +87,10 @@ __A propos de la fonction range() dans une boucle__
 
 _si on fait `print(range(5))` on voit que l'on reçoit `range(0,5)` et non un tableau avec les chiffres de 0 à 5 donc cette fonction ne renvoi pas de tableau mais bien quelque chose de plus spécifique : un objet 'range' En effet, si on utilise la fonction `type` en faisant `print(type(range(5)))` cela renvoi `<class 'range'>`ce qui signifie que ça renvoi un objet appelé 'range'. C'est une objet ittérable comme les chaînes de caractères et les tableaux donc on peut les 'parcourir' dans des boucles `for`. L'avantage de l'objet `range` c'est qu'il prend très peu de mémoire. On peut donc imaginer faire un `range(5000000)` qui fonctionnerai alors que si on n'utilise pas `range`, mais quelque chose d'autres (de type string ou un tableau) cela voudrait dire qu'il nous faudrait un tableau (aussi appelé array ou list) de cet ampleur (c'est-à-dire avec 5000000 d'éléments à l'intérieur) ce qui est impossible car il prendrai beaucoup trop de place en mémoire_
 
+# Les fonctions
+
+_toujours dans ./basics/app.py, descendre jusqu'à functions_
+
 
 
 

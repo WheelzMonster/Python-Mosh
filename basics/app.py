@@ -192,6 +192,7 @@ message = 'eligible' if age >= 18 else "not eligible"
 
 # FOR LOOP *************************************************
 
+
 # Pour les chaines de caractères les tableaux etc on utilise for in
 
 string = 'chaine'
@@ -233,6 +234,7 @@ else:
 
 # WHILE LOOP*************************************************
 
+
 guess = 0
 answer = 5
 
@@ -241,3 +243,6 @@ while guess != answer:
 print('number guessed!')
 
 # On peut aussi rajouter un else après le while comme avec le for, et il ne s'exécutera que si la boucle while est exécuté en entier sans break
+
+
+# ***********************************************FUNCTIONS****************************************
