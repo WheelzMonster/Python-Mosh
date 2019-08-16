@@ -119,13 +119,13 @@ x = x + 1  # x += 1 est identique, ça marche pour le + mais aussi pour tous les
 
 # *****************************USEFUL NUMBER METHODS***************************
 
-round()  # pour la valeur arrondie
-abs()  # pour la valeur absolue
+round(5.7)  # pour la valeur arrondie
+abs(55)  # pour la valeur absolue
 
 # On peut importer le module Math pour avoir plusieurs propriété, pour les voir il suffit de faire math. et regarder la liste
 
 
-math.floor()  # arrondie a l'inferieur
+math.floor(4.5)  # arrondie a l'inferieur
 
 # Note : taper python built-in functions ou python 3 math module en ce qui concerne l'import math pour plus d'info
 
@@ -216,3 +216,28 @@ for paires in range(0, 10, 2):
 
 
 # FOR ... ELSE LOOP*************************************************
+
+
+namesArr = ['AJohn', 'Mary']
+
+for name in namesArr:
+    if name.startswith('J'):
+        print('found')
+        break  # arrête la boucle for
+else:
+    print('not found')
+
+# dans une boucle for ... else, si la boucle s'exécute en entier (c'est-à-dire sans break) alors
+# le code dans le else sera exécuté. Si la boucle n'arrive pas au bout alors le else est ignoré.
+
+
+# WHILE LOOP*************************************************
+
+guess = 0
+answer = 5
+
+while guess != answer:
+    guess = int(input('guess the number: '))
+print('number guessed!')
+
+# On peut aussi rajouter un else après le while comme avec le for, et il ne s'exécutera que si la boucle while est exécuté en entier sans break
