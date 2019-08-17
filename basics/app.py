@@ -246,3 +246,39 @@ print('number guessed!')
 
 
 # ***********************************************FUNCTIONS****************************************
+
+
+# On créer le squelette de base d'une fonctions qui prend un nombre et lui ajoute un autre nombre
+
+def increment(number, by):
+    return number + by
+
+
+# on fait l'appel de la fonction et on donne une valeur à chaque paramètres
+increment(2, 5)
+
+# Pour renvoyer plusieurs valeurs à la fois il suffit de faire dans la fonction increment :
+# return (number, number + by) ce qui renverra : (2, 7) Ce resultat est appelé 'Tuple'
+
+# Un tuple est comme une list (un tableau) mais qu'on ne peut pas modifier, qui est en read-only, il s'ecrit comme une list mais avec des ()
+
+# Pour rajouter de la lisibilité à notre code on peut utiliser des keyword arguments dans l'appel de la fonction :
+
+increment(2, by=5)
+
+# On peut utiliser des paramètres par défaut pour les fonctions
+
+
+def maFonction(number, by=1):
+    return number + by
+
+
+maFonction(5)
+# renvoi 6 car si l'on ne donne pas de valeur à un paramètre de notre fonction auquel on a associé une valeur par défaut, il prendra cette valeur.
+
+# Pour rendre notre fonction encore plus lisible on peut utiliser du type hinting, c'est à dire écrire le type de chaque élément de notre fonction sous cette forme
+
+
+# le type après la flèche représente le type de l'elément retourné par la fonction:
+def testFonction(number: int, by: int = 1) -> int:
+    return number + by
