@@ -193,7 +193,7 @@ message = 'eligible' if age >= 18 else "not eligible"
 # FOR LOOP *************************************************
 
 
-# Pour les chaines de caractères les tableaux etc on utilise for in
+# Pour les chaines de caractères les lists etc on utilise for in
 
 string = 'chaine'
 
@@ -245,7 +245,7 @@ print('number guessed!')
 # On peut aussi rajouter un else après le while comme avec le for, et il ne s'exécutera que si la boucle while est exécuté en entier sans break
 
 
-# ***********************************************FUNCTIONS****************************************
+# ***********************************************FUNCTIONS**************************************************
 
 
 # On créer le squelette de base d'une fonctions qui prend un nombre et lui ajoute un autre nombre
@@ -260,7 +260,7 @@ increment(2, 5)
 # Pour renvoyer plusieurs valeurs à la fois il suffit de faire dans la fonction increment :
 # return (number, number + by) ce qui renverra : (2, 7) Ce resultat est appelé 'Tuple'
 
-# Un tuple est comme une list (un tableau) mais qu'on ne peut pas modifier, qui est en read-only, il s'ecrit comme une list mais avec des ()
+# Un tuple est comme une list mais qu'on ne peut pas modifier, qui est en read-only, il s'ecrit comme une list mais avec des ()
 
 # Pour rajouter de la lisibilité à notre code on peut utiliser des keyword arguments dans l'appel de la fonction :
 
@@ -282,3 +282,6 @@ maFonction(5)
 # le type après la flèche représente le type de l'elément retourné par la fonction:
 def testFonction(number: int, by: int = 1) -> int:
     return number + by
+
+
+# XARGS******************************************************************************
