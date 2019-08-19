@@ -84,7 +84,7 @@ _toujours dans ./basics/app.py, descendre jusqu'à loops_
 
 **A propos de la fonction range() dans une boucle**
 
-_si on fait `print(range(5))` on voit que l'on reçoit `range(0,5)` et non un tableau avec les chiffres de 0 à 5 donc cette fonction ne renvoi pas de tableau mais bien quelque chose de plus spécifique : un objet 'range' En effet, si on utilise la fonction `type` en faisant `print(type(range(5)))` cela renvoi `<class 'range'>`ce qui signifie que ça renvoi un objet appelé 'range'. C'est une objet ittérable comme les chaînes de caractères et les tableaux donc on peut les 'parcourir' dans des boucles `for`. L'avantage de l'objet `range` c'est qu'il prend très peu de mémoire. On peut donc imaginer faire un `range(5000000)` qui fonctionnerai alors que si on n'utilise pas `range`, mais quelque chose d'autres (de type string ou un tableau) cela voudrait dire qu'il nous faudrait un tableau (aussi appelé array ou list) de cet ampleur (c'est-à-dire avec 5000000 d'éléments à l'intérieur) ce qui est impossible car il prendrai beaucoup trop de place en mémoire_
+si on fait `print(range(5))` on voit que l'on reçoit `range(0,5)` et non un tableau avec les chiffres de 0 à 5 donc cette fonction ne renvoi pas de tableau mais bien quelque chose de plus spécifique : un objet 'range' En effet, si on utilise la fonction `type` en faisant `print(type(range(5)))` cela renvoi `<class 'range'>`ce qui signifie que ça renvoi un objet appelé 'range'. C'est une objet ittérable comme les chaînes de caractères et les tableaux donc on peut les 'parcourir' dans des boucles `for`. L'avantage de l'objet `range` c'est qu'il prend très peu de mémoire. On peut donc imaginer faire un `range(5000000)` qui fonctionnerai alors que si on n'utilise pas `range`, mais quelque chose d'autres (de type string ou un tableau) cela voudrait dire qu'il nous faudrait un tableau (aussi appelé array ou list) de cet ampleur (c'est-à-dire avec 5000000 d'éléments à l'intérieur) ce qui est impossible car il prendrai beaucoup trop de place en mémoire
 
 # Les fonctions, arguments, keyword arguments et type hinting
 
@@ -93,3 +93,17 @@ _toujours dans ./basics/app.py, descendre jusqu'à functions_
 **pourquoi le mot 'def' ?**
 
 _'def' est un raccourcis de 'define' ou 'function definition'_
+
+# Portée des variables (locales ou globales) aussi appelé 'scope'
+
+Il existe deux types de variables :
+
+-   les variables locales (dites 'à portée de fonctions". Ce sont des variables définient à l'interieur d'une fonction qui seront uniquement accessibles à l'intérieur de celles-ci (function scope))
+
+-   les variables globales (dites 'à portée de fichier'. Ce sont des variables qui sont définient de manière 'globale' dans le code, c'est-à-dire en dehors d'une fonction. Ces variables sont accessibles n'importe où dans le code, (global scope))
+
+_note : en python, contrairement au JS ou au C# par exemple, les variables 'à portée de bloc' n'existe pas. Cela signifie que les variables définient à l'intérieur des déclarations (if... else statement, boucle etc...) ne sont pas propres à ce bloc. Elles sont en effet eccessible même en dehors de ce bloc._
+
+# Le debug dans VSCode
+
+_dans ./debugging/app.py_

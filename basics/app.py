@@ -284,6 +284,4 @@ def testFonction(number: int, by: int = 1) -> int:
     return number + by
 
 
-# XARGS******************************************************************************
-
-# testS
+print(testFonction(5, 7))
