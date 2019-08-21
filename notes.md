@@ -108,4 +108,3 @@ _note : en python, contrairement au JS ou au C# par exemple, les variables 'à p
 
 _dans ./debugging/app.py_
 
-test
