@@ -107,3 +107,5 @@ _note : en python, contrairement au JS ou au C# par exemple, les variables 'à p
 # Le debug dans VSCode
 
 _dans ./debugging/app.py_
+
+test
