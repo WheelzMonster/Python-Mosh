@@ -98,7 +98,7 @@ _'def' est un raccourcis de 'define' ou 'function definition'_
 
 Il existe deux types de variables :
 
--   les variables locales (dites 'à portée de fonctions". Ce sont des variables définient à l'interieur d'une fonction qui seront uniquement accessibles à l'intérieur de celles-ci (function scope))
+-   les variables locales (dites 'à portée de fonctions". Ce sont des variables définient à l'interieur d'une fonction qui seront uniquement accessibles à l'intérieur de celle-ci (function scope))
 
 -   les variables globales (dites 'à portée de fichier'. Ce sont des variables qui sont définient de manière 'globale' dans le code, c'est-à-dire en dehors d'une fonction. Ces variables sont accessibles n'importe où dans le code, (global scope))
 
