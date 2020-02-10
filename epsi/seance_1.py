@@ -71,8 +71,9 @@ reponse = int(input("Devinez le nombre entre 0 et 100: "))
 
 while reponse != nombre:
     reponse = int(input("choisissez un autre nombre: "))
-    if reponse < nombre:
+    if reponse > nombre:
         print("c'est moins")
-    else:
+    elif reponse < nombre:
         print("c'est plus")
-print("c'est gagné")
+    else:
+        print("c'est gagné")
