@@ -70,10 +70,10 @@ nombre = randint(0, 100)
 reponse = int(input("Devinez le nombre entre 0 et 100: "))
 
 while reponse != nombre:
-    reponse = int(input("choisissez un autre nombre: "))
     if reponse > nombre:
         print("c'est moins")
     elif reponse < nombre:
         print("c'est plus")
-    else:
-        print("c'est gagné")
+    reponse = int(input("choisissez un autre nombre: "))
+
+print("c'est gagné")
